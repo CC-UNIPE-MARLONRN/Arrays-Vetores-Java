@@ -20,7 +20,7 @@ public class Methods<Array> {
 	//Adiciona Valores
 	public void AdicionarValor(Array Valor) {
 		if(tamanho_atual == elementos.length) {
-			RedimencionarArrayList();
+			RedimencionarArray();
 		}
 		elementos[tamanho_atual++] = Valor;
 	}
