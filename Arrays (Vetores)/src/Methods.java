@@ -13,7 +13,7 @@ public class Methods<Array> {
 	}
 	
 	//Aumenta o tamanho do Array quando lotar
-	public void RedimencionarArrayList(){
+	private void RedimencionarArray(){
 		elementos = Arrays.copyOf(elementos, elementos.length *2);
 	}
 	
