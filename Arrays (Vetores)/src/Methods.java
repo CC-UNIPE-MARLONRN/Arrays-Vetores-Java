@@ -52,6 +52,7 @@ public class Methods<Array> {
 		System.out.println("]");
 	}
 	
+	//Vê o tamanho atual do Array
 	public int VerTamanho() {
 		return tamanho_atual;
 	}
